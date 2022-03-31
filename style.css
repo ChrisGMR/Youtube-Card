@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@1,700&family=Roboto:wght@300;500&display=swap');
+
+body{
+    font-family: Roboto;
+}
+.container{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 13px;
+    width: 300px;
+    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+
+   
+}
+.img{
+    flex:1; 
+    object-fit: contain;
+    
+    
+}
+.bttm{
+    
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    
+}
+.smimag{
+    flex: 1;
+    color:white;
+    border: solid 2px black;
+    border-radius: 50%;
+    justify-content: left;
+    align-content: center;
+    padding-right: 6px;
+    padding-left: 0;
+    
+
+}
+.middle{
+    flex:7;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+}
+.toptex{
+    
+    flex:2;
+    color: white;
+    font-size: 60%;
+}
+.mid{
+    
+    flex:1;
+    color: grey;
+    font: weight 3px;;
+    font-size: 15px;
+    margin-top: 8px;
+    
+}
+.grey{
+    
+    flex:1;
+    color: grey;
+    font-weight: 3px;
+    font-size: 15px;
+}
+.button{
+    flex: 1;
+    border: 1.5px solid red;
+    background-color: transparent;
+    color: red;
+    width: fit-content;
+    height: 32x;
+    font-size: 13px;
+    border-radius: 5%;
+    padding: 5 0 0px;
+}
+.end{
+    flex:1;
+    color: white;
+    writing-mode: vertical-lr;
+    font-size: 20px;
+    display: flex;
+    align-items: flex-end;
+   
+}
+
